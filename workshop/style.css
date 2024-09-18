@@ -291,6 +291,10 @@ footer {
 }
 .linkss{
     margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.linkss:hover{
+    filter: brightness(0) saturate(100%) invert(47%) sepia(95%) saturate(3514%) hue-rotate(-15deg) brightness(100%) contrast(101%);
 }
 
 .social-links a {
